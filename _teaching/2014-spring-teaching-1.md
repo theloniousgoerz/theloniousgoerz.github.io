@@ -1,20 +1,13 @@
 ---
-title: "Teaching experience 1"
+title: "English 101"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+permalink: /teaching/2016-engl-101
+venue: "Seattle Central College"
+date: 2016-03-01
+location: "Seattle, United States"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+A long time ago, I served as a teaching assistant for English 101, Seattle Central College's introductory composition course. In this course, I provided students with feedback on their assignments, graded papers, and gave various in-class presentations about research practices. 
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+More info to be added. 
