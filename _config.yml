@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Thelonious Goerz"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Thelonious Goerz"
+description              : &description "Researcher, student, writer"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "theloniousgoerz.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  name             : "Thelonious Goerz"
+  avatar           : "images/tg_headshot.jpeg"
+  bio              : "My name is thelonious Goerz and I'm a senior studying sociology at University of Washington. This upcoming year I will be writing an honors thesis and documenting my progress here. After undergraduate, I plan to pursue a PhD in sociology and demography, with the ultimate goal of becoming a professor. My current research interests are broad, but substantively comprise urban sociology, social demography, health and wellbeing, race and ethnicity, and women's health. On top of these I keep close tabs on research and debate about rights, such as those surrounding circumcison, and philosophy of science. I regularly tweet about these interests on my twitter, which I am very actice on. Feel free to give me a follow and don't hesitate to reach out to me via email."
+  location         : "Seattle, Washington"
+  employer         : "University of Washington"
+  pubmed           : 
+  googlescholar    : 
+  email            : "Theloniouslgoerz@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/theloniousgoerz"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "twitter.com/theloniousgoerz"
   vine             :
   weibo            :
   xing             :
