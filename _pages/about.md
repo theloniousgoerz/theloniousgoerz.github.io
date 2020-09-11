@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
+Hi, 
 My name is Thelonious Goerz and I'm a senior studying sociology at University of Washington. This upcoming year I will be writing an honors thesis and documenting my progress here. After undergraduate, I plan to pursue a PhD in sociology and demography, with the ultimate goal of becoming a professor. My current research interests are broad, but substantively comprise urban sociology, social demography, health and wellbeing,race and ethnicity, and women's health. On top of these, I do a fair amount of programming and am interested in using computationally intenseive ans statistically rigorous methods to approach these issues. 
 On top of these I keep close tabs on research and debate about rights, such as those surrounding circumcision, and philosophy of science. 
 
