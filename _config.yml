@@ -9,9 +9,9 @@
 locale                   : "en-US"
 title                    : "Thelonious Goerz"
 title_separator          : "-"
-name                     : &name "Thelonious Goerz"
+name                     : &name "Home"
 description              : &description "Researcher, student, writer"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://theloniousgoerz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "theloniousgoerz.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Thelonious Goerz"
-  avatar           : "images/tg_headshot.jpeg"
+  avatar           : "tg_headshot.jpeg"
   bio              : "Researcher and student"
   location         : "Seattle, Washington"
   employer         : "University of Washington"
@@ -95,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/theloniousgoerz"
+  github           : "theloniousgoerz"
   google_plus      :
   keybase          :
   instagram        :
@@ -108,7 +108,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "twitter.com/theloniousgoerz"
+  twitter          : "theloniousgoerz"
   vine             :
   weibo            :
   xing             :
