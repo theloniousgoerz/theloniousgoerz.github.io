@@ -7,7 +7,6 @@ tags:
   - research
   - general
 ---
-# Blog life. 
 
 Hi there, as you may have seen from my overly dense bio, this is my academic hub where I will be addind (shortly) all relevant materials related to school, professional, programming related, and general stuff. 
 
