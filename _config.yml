@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Thelonious Goerz"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Home"
 description              : &description "Researcher, student, writer"
