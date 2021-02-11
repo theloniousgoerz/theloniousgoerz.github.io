@@ -10,11 +10,9 @@ redirect_from:
 
 Hi, 
 
-My name is Thelonious Goerz and I'm a senior studying sociology at University of Washington. This upcoming year I will be writing an honors thesis and documenting my progress here. After undergraduate, I plan to pursue a PhD in sociology and demography, with the ultimate goal of becoming a professor. My current research interests are broad, but substantively comprise urban sociology, social demography, health and wellbeing, race and ethnicity, and women's health. On top of these, I do a fair amount of programming and am interested in using computationally intenseive and statistically rigorous methods to approach these issues. 
-On top of these I keep close tabs on research and debate about rights, such as those surrounding circumcision, and philosophy of science. 
+My name is Thelonious Goerz and I'm a senior studying sociology at University of Washington. I am currently writing my honors thesis on Light Rail Transit implications for demographic outcomes in Seattle. 
 
-Throughout college, I have worked for the student newspaper, [The Daily](http://www.dailyuw.com/), where I have written prolifically about campus politics, health, and science. For the summer and fall of 2019, I served as the science editor. 
+I am an incoming pre-doctoral research fellow at the Poverty and Inequality Research Lab [(PIRL)](https://otheramerica.org/), where I will be working and developing my research skills. Feel free to reach out and chat via email or twitter. 
 
-In addition to all this, I work for my campus interdisciplinary writing center, where I work with a wide variety of students to help them improve their writing. I will update some of my materials further to include some of my thoughts and resources for good college writing strategies/my philosophy. 
+Throughout college, I have worked for the student newspaper, [The Daily](http://www.dailyuw.com/), where I have written prolifically about campus politics, health, and science. For the summer and fall of 2019, I served as the science editor. In addition to all this, I work for my campus interdisciplinary writing center, where I help a variety of students to help them improve their writing.
 
-I regularly tweet about these interests on my twitter, which I am very active on. Feel free to give me a follow and don't hesitate to reach out to me via email or socials.
