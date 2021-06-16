@@ -10,9 +10,8 @@ redirect_from:
 
 Hi, 
 
-My name is Thelonious Goerz and I'm a senior studying sociology at University of Washington. I am currently writing my honors thesis on Light Rail Transit implications for demographic outcomes in Seattle. 
+My name is Thelonious Goerz and I'm a pre-doctoral research fellow at the Poverty and Inequality Research Lab [(PIRL)](https://otheramerica.org/article/pirl-launches-predoctoral-research-fellowship) at Johns Hopkins. I work on housing, education, and public policy research. Feel free to reach out and chat via email or twitter. 
 
-Beginning this summer, I will be a pre-doctoral research fellow at the Poverty and Inequality Research Lab [(PIRL)](https://otheramerica.org/article/pirl-launches-predoctoral-research-fellowship), where I will be working on housing, education, and public policy research. Feel free to reach out and chat via email or twitter. 
+I graduated from the University of Washington with a B.A. in Sociology and a minor in data science. My thesis explored the economic and demographic trajectories of Seattle neighborhoods with Light Rail Transit. Throughout that time I also contributed to the student [newspaper](http://www.dailyuw.com/), worked in the writing center, and developed my statistical skills. You can find my projects on my [github](https://github.com/theloniousgoerz). 
 
-Throughout college, I have worked for the student newspaper, [The Daily](http://www.dailyuw.com/), where I have written prolifically about campus politics, health, and science. For the summer and fall of 2019, I served as the science editor. In addition to all this, I work for my campus interdisciplinary writing center, where I help a variety of students to help them improve their writing.
 
