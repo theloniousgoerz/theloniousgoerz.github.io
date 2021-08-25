@@ -1,0 +1,93 @@
+---
+output: stevetemplates::cv
+geometry: margin=1in
+
+title: "CV"
+author: Thelonious Goerz
+
+jobtitle: "Pre-doctoral Research Fellow, Johns Hopkins University"
+address: "Poverty and Inequality Research Lab"
+fontawesome: yes
+github: theloniousgoerz
+web: theloniousgoerz.github.io
+updated: "`r format(Sys.time(), '%B %d, %Y')`"
+
+keywords: R Markdown, academic CV, template
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+---
+
+# Education
+
+**B.A. (Honors), with distinction** \hfill 2018 - 2021  
+*Department of Sociology, University of Washington*
+
+- Minor: Data science
+- GPA: 3.90, Magna Cum Laude, Phi Beta Kappa
+- Thesis: "Race, Class, and Light Rail Transit: Examining Neighborhood Income and Demographic Composition Dynamics, 1990-2015"
+- Advisor: Sara. R. Curran
+- Graduate PhD methods (statistics), Demography, Urban Planning Policy
+
+# Experience 
+
+**Pre-doctoral Research fellow** \hfill Jun 2021 - current  
+*Johns Hopkins University, Baltimore, MD*
+
+- Research assitant for professors Stefanie DeLuca and Nicholas Papageorge 
+- Write memos on quantitative and qualitative data
+- Conduct statistical analysis for papers to be submitted to journals
+
+**Research assistant** \hfill Jun 2020 - Sep 2020  
+*UW Department of Public Health, Seattle, WA*
+
+- Find, clean, and write codebooks of administrative and survey data in R
+- Collaborate with Prof. Uba Backonja to create a merged database of findings
+
+**Research assistant** \hfill Mar 2019 - Mar 2020  
+*UW Department of Human Centered Design and Engineering, Seattle, WA*
+
+- Create surveys, literature reviews, and reports on university mental health resources 
+- Use R to analyze data and make reports for advisors and the research team
+- Create reports and communicate results to multiple audiences to inform policy changes 
+
+# Publications
+
+Goerz, Thelonious, 2021, "Race, Class, and Light Rail Transit: Examining income and demographic change in neighborhoods with transit development", (Working Paper)
+
+# Invited Presentations
+
+- Goerz, Thelonious, 2021, "Race, Class, and Light Rail Transit: Examining income and demographic change in neighborhoods with transit development", American Sociological Association Annual Meeting.
+- Goerz, Thelonious, 2021, "Race, Class, and Light Rail Transit: Examining high-income demographic change in neighborhoods with transit development", Mary Gates Research Symposium.
+- Goerz, Thelonious, 2020, "Examining Stress and mental health resources access", Mary Gates Research Symposium.
+
+# Skills
+
+- Software: R, SQL, Python, Stata, LaTeX, Markdown, MAXQDA, Microsoft office
+- Additional: Git, Github, Bash
+
+# Additional Projexts
+
+- Used singular value decomposition and principal components analysis to analyze congressional voting roll call data
+- Used K-nearest neighbors and random forests to predict penguin species using the `palmerpenguins` data
+- Consulted with ASUW student leaders to analyze data and prepare exploratory analyses for policy changes
+- Used multinomial and logistic regression to classify public opinion data on sex education using the General Social Survey
+
+# Awards and Honors
+
+- Howard B. Woolston Award, Department of Sociology \hfill 2021
+
+  * Awarded to the most outstanding graduating senior in Sociology 
+  
+- Mary Gates Scholar, University of Washington $2,500 \hfill 2021
+- Populaiton Health Research Award, UW Population Health Initiative \hfill 2020
+- University of Washington Honors Program \hfill 2021
+- University of Washington Dean's list \hfill 2018-21
+
+# Professional affiliations 
+
+- Population Association of America 
+- American Sociological Association
