@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.7.23)  25 AUG 2021 09:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.23)  8 NOV 2021 10:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **goerz_cv_updated.tex
 (./goerz_cv_updated.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-07-12> (/Users/theloniousgoerz/Library/TinyTeX/texmf
+L3 programming layer <2021-08-27> (/Users/theloniousgoerz/Library/TinyTeX/texmf
 -dist/tex/latex/base/article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
 (/Users/theloniousgoerz/Library/TinyTeX/texmf-dist/tex/latex/base/size11.clo
@@ -229,7 +229,7 @@ rs
 )
 (/Users/theloniousgoerz/Library/TinyTeX/texmf-dist/tex/latex/lastpage/lastpage.
 sty
-Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
 )
 (/Users/theloniousgoerz/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.
 sty
@@ -450,7 +450,7 @@ LaTeX Info: Redefining \today on input line 736.
 )
 (/Users/theloniousgoerz/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
-File: l3backend-pdftex.def 2021-07-12 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count308
 \l__pdf_internal_box=\box53
 ) (./goerz_cv_updated.aux)
@@ -571,23 +571,17 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [1
 
 {/Users/theloniousgoerz/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
-x.map}]
-Underfull \hbox (badness 1221) in paragraph at lines 244--247
-[]\T1/pplj/m/n/10.95 Used K-nearest neigh-bors and ran-dom forests to pre-dict 
-pen-guin species us-ing the
- []
-
-
+x.map}] 
 AED: lastpage setting LastPage
 [2] (./goerz_cv_updated.aux)
 Package rerunfilecheck Info: File `goerz_cv_updated.out' has not changed.
-(rerunfilecheck)             Checksum: 50080D66FFCB1D54D30CE5054BD62D3C;962.
+(rerunfilecheck)             Checksum: D52E4E36A7068C4074F39AB7E620DA4A;790.
  ) 
 Here is how much of TeX's memory you used:
- 12715 strings out of 480502
- 185659 string characters out of 5898080
- 517684 words of memory out of 5000000
- 30189 multiletter control sequences out of 15000+600000
+ 12715 strings out of 480559
+ 185656 string characters out of 5901779
+ 515769 words of memory out of 5000000
+ 30134 multiletter control sequences out of 15000+600000
  429447 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,11n,80p,1205b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -601,10 +595,10 @@ sgoerz/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/t
 heloniousgoerz/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /Users/theloniousgoerz/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr
 i8a.pfb>
-Output written on goerz_cv_updated.pdf (2 pages, 88070 bytes).
+Output written on goerz_cv_updated.pdf (2 pages, 86332 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -27,34 +27,32 @@ urlcolor: blue
 *Department of Sociology, University of Washington*
 
 - Minor: Data science
-- GPA: 3.90, Magna Cum Laude, Phi Beta Kappa
+- GPA: 3.90, *Magna Cum Laude*, Phi Beta Kappa
 - Thesis: "Race, Class, and Light Rail Transit: Examining Neighborhood Income and Demographic Composition Dynamics, 1990-2015"
-- Advisor: Sara. R. Curran
-- Graduate PhD methods (statistics), Demography, Urban Planning Policy
+- Advisor: Sara R. Curran
 
 # Experience 
 
-**Pre-doctoral Research fellow** \hfill Jun 2021 - current  
+**Pre-doctoral Research fellow** \hfill Jun. 2021 - current  
 *Johns Hopkins University, Baltimore, MD*
 
-- Research assitant for professors Stefanie DeLuca and Nicholas Papageorge 
+- Research Assistant for professors Stefanie DeLuca and Nicholas Papageorge 
 - Write memos on quantitative and qualitative data
-- Conduct statistical analysis for papers to be submitted to journals
 
-**Research assistant** \hfill Jun 2020 - Sep 2020  
+**Research assistant** \hfill Jun. 2020 - Sep. 2020  
 *UW Department of Public Health, Seattle, WA*
 
 - Find, clean, and write codebooks of administrative and survey data in R
 - Collaborate with Prof. Uba Backonja to create a merged database of findings
 
-**Research assistant** \hfill Mar 2019 - Mar 2020  
+**Research assistant** \hfill Mar. 2019 - Mar. 2020  
 *UW Department of Human Centered Design and Engineering, Seattle, WA*
 
 - Create surveys, literature reviews, and reports on university mental health resources 
 - Use R to analyze data and make reports for advisors and the research team
 - Create reports and communicate results to multiple audiences to inform policy changes 
 
-# Publications
+# Papers
 
 Goerz, Thelonious, 2021, "Race, Class, and Light Rail Transit: Examining income and demographic change in neighborhoods with transit development", (Working Paper)
 
@@ -66,15 +64,8 @@ Goerz, Thelonious, 2021, "Race, Class, and Light Rail Transit: Examining income 
 
 # Skills
 
-- Software: R, SQL, Python, Stata, LaTeX, Markdown, MAXQDA, Microsoft office
+- Software: R, Julia, SQL, Python, Stata, LaTeX, Markdown, MAXQDA
 - Additional: Git, Github, Bash
-
-# Additional Projexts
-
-- Used singular value decomposition and principal components analysis to analyze congressional voting roll call data
-- Used K-nearest neighbors and random forests to predict penguin species using the `palmerpenguins` data
-- Consulted with ASUW student leaders to analyze data and prepare exploratory analyses for policy changes
-- Used multinomial and logistic regression to classify public opinion data on sex education using the General Social Survey
 
 # Awards and Honors
 
@@ -83,7 +74,7 @@ Goerz, Thelonious, 2021, "Race, Class, and Light Rail Transit: Examining income 
   * Awarded to the most outstanding graduating senior in Sociology 
   
 - Mary Gates Scholar, University of Washington $2,500 \hfill 2021
-- Populaiton Health Research Award, UW Population Health Initiative \hfill 2020
+- Population Health Research Award, UW Population Health Initiative \hfill 2020
 - University of Washington Honors Program \hfill 2021
 - University of Washington Dean's list \hfill 2018-21
 
