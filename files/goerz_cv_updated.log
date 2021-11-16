@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.23)  8 NOV 2021 10:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.9.23)  16 NOV 2021 09:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -575,16 +575,16 @@ x.map}]
 AED: lastpage setting LastPage
 [2] (./goerz_cv_updated.aux)
 Package rerunfilecheck Info: File `goerz_cv_updated.out' has not changed.
-(rerunfilecheck)             Checksum: D52E4E36A7068C4074F39AB7E620DA4A;790.
+(rerunfilecheck)             Checksum: 43770D775797B11A5D45A7588401995C;833.
  ) 
 Here is how much of TeX's memory you used:
  12715 strings out of 480559
- 185656 string characters out of 5901779
- 515769 words of memory out of 5000000
+ 185672 string characters out of 5901779
+ 514777 words of memory out of 5000000
  30134 multiletter control sequences out of 15000+600000
  429447 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,11n,80p,1205b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,11n,80p,1205b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/theloniousgoerz/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.en
 c} </Users/theloniousgoerz/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/e
 c/ectt1095.600pk>{/Users/theloniousgoerz/Library/TinyTeX/texmf-dist/fonts/enc/d
@@ -595,7 +595,7 @@ sgoerz/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/t
 heloniousgoerz/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /Users/theloniousgoerz/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr
 i8a.pfb>
-Output written on goerz_cv_updated.pdf (2 pages, 86332 bytes).
+Output written on goerz_cv_updated.pdf (2 pages, 85597 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
