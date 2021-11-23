@@ -8,10 +8,14 @@ redirect_from:
   - /about.html
 ---
 
+<p align="center">
+<img width="600" height="400" src="/Users/theloniousgoerz/academics/professional/website/theloniousgoerz.github.io/website-main.jpeg">
+</p>
+
 Hi, 
 
-My name is Thelonious Goerz and I'm a pre-doctoral research fellow at the Poverty and Inequality Research Lab [(PIRL)](https://otheramerica.org/article/pirl-launches-predoctoral-research-fellowship) at Johns Hopkins. I work on housing, education, and public policy research. Feel free to reach out and chat via email or twitter. 
+My name is Thelonious Goerz and I'm a pre-doctoral research fellow at the Poverty and Inequality Research Lab [(PIRL)](https://otheramerica.org/article/pirl-launches-predoctoral-research-fellowship) at Johns Hopkins University. I study on housing mobility, education, and demography.
 
-I graduated from the University of Washington with a B.A. in Sociology and a minor in data science. My thesis explored the economic and demographic trajectories of Seattle neighborhoods with Light Rail Transit. Throughout that time I also contributed to the student [newspaper](http://www.dailyuw.com/), worked in the writing center, and developed my statistical skills. You can find my projects on my [github](https://github.com/theloniousgoerz). 
+I graduated from the University of Washington with a B.A. in Sociology and a minor in data science. My thesis explored the economic and demographic trajectories of Seattle neighborhoods with Light Rail Transit. You can find my projects and code on my [github](https://github.com/theloniousgoerz). 
 
-
+Feel free to reach out and chat via email or twitter. 
