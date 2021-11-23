@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <p align="center">
-<img width="500" height="300" src="/Users/theloniousgoerz/academics/professional/website/theloniousgoerz.github.io/website-main.png">
+<img width="500" height="300" src="website-main.png">
 </p>
 
 Hi, 
