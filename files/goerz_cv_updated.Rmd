@@ -44,9 +44,14 @@ urlcolor: blue
 
 # Working Papers
 
-Goerz, Thelonious, 2021, "Race, Class, and Light Rail Transit: Examining income and demographic change in neighborhoods with transit development", (Working Paper)
+Goerz, Thelonious, 2021, "Sociodemographic change in neighborhoods with rail transit", (Working Paper)
 
-# Invited Presentations
+# Presentations
+Denotes equal authorship *. 
+
+Goerz, Thelonious, 2022, "Race, Class, and Light Rail Transit: Examining income and demographic change in neighborhoods with transit development", Population Association of America Annual Meeting, Atlanta, GA. (Forthcoming)
+
+*Goerz, Thelonious, Matthew Gonzalez, Claire Smith, 2022, "How Qualitative Data Can Inform Economic Questions: A Mixed-Methods Approach to Postsecondary Educational Trajectories.", Economic Policy Issues Colloquium, Johns Hopkins University, Baltimore, MD. 
 
 Goerz, Thelonious, 2021, "Race, Class, and Light Rail Transit: Examining income and demographic change in neighborhoods with transit development", American Sociological Association Annual Meeting.
   
