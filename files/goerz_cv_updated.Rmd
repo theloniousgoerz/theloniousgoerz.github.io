@@ -27,14 +27,14 @@ urlcolor: blue
 *Department of Sociology, University of Washington*
 
 - Minor: Data science
-- GPA: 3.90, *Magna Cum Laude*, Phi Beta Kappa
+- GPA: 3.9, *Cum Laude*, Phi Beta Kappa
 - Thesis: "Race, Class, and Light Rail Transit: Examining Neighborhood Income and Demographic Composition Dynamics, 1990-2015"
 - Advisor: Sara R. Curran
 
 # Experience 
 
 **Pre-doctoral Research fellow** \hfill Jun. 2021 - current  
-*Johns Hopkins University, Baltimore, MD*
+*Poverty and Inequality Research Lab, Johns Hopkins University, Baltimore, MD*
 
 **Research assistant** \hfill Jun. 2020 - Sep. 2020  
 *UW Department of Public Health, Seattle, WA*
@@ -44,20 +44,23 @@ urlcolor: blue
 
 # Working Papers
 
-Goerz, Thelonious, 2021, "Sociodemographic change in neighborhoods with rail transit", (Working Paper)
+Goerz, Thelonious, 2021, "Sociodemographic change in neighborhoods with rail transit", (Working paper in-preparation)
 
 # Presentations
-Denotes equal authorship *. 
+Denotes equal authorship *
+Denotes invited presentation ^
 
-Goerz, Thelonious, 2022, "Race, Class, and Light Rail Transit: Examining income and demographic change in neighborhoods with transit development", Population Association of America Annual Meeting, Atlanta, GA. (Forthcoming)
+Goerz, Thelonious, 2022, "Race, Class, and Light Rail Transit: Examining income and demographic change in neighborhoods with transit development", Population Association of America 2022 Annual Meeting, Atlanta, GA.
 
-*Goerz, Thelonious, Matthew Gonzalez, Claire Smith, 2022, "How Qualitative Data Can Inform Economic Questions: A Mixed-Methods Approach to Postsecondary Educational Trajectories.", Economic Policy Issues Colloquium, Johns Hopkins University, Baltimore, MD. 
+Goerz, Thelonious, Matthew Gonzalez, Claire Smith, 2022, "How Qualitative Data Can Inform Economic Questions: A Mixed-Methods Approach to Postsecondary Educational Trajectories.", Economic Policy Issues Colloquium, Johns Hopkins University, Baltimore, MD.*^
 
-Goerz, Thelonious, 2021, "Race, Class, and Light Rail Transit: Examining income and demographic change in neighborhoods with transit development", American Sociological Association Annual Meeting.
+Goerz, Thelonious, 2021, "Race, Class, and Light Rail Transit: Examining income and demographic change in neighborhoods with transit development", American Sociological Association 2021 Annual Meeting (Virtual).^
+
+Goerz, Thelonious, 2021, "Race, Class, and Light Rail Transit: Examining income and demographic change in neighborhoods with transit development", Presented to Fellows at the Population Health Initiative, University of Washington.^
   
-Goerz, Thelonious, 2021, "Race, Class, and Light Rail Transit: Examining high-income demographic change in neighborhoods with transit development", Mary Gates Research Symposium.
+Goerz, Thelonious, 2021, "Race, Class, and Light Rail Transit: Examining high-income demographic change in neighborhoods with transit development", Mary Gates Undergraduate Research Symposium.
   
-Goerz, Thelonious, 2020, "Examining Stress and mental health resources access", Mary Gates Research Symposium.
+Goerz, Thelonious, 2020, "Examining Stress and mental health resources access", Mary Gates Undergraduate Research Symposium.
 
 # Skills
 
@@ -67,7 +70,7 @@ Goerz, Thelonious, 2020, "Examining Stress and mental health resources access", 
 # Awards and Honors
 
 - Howard B. Woolston Award, Department of Sociology \hfill 2021
-- Mary Gates Scholar, University of Washington $2,500 \hfill 2021
+- Mary Gates Scholar, University of Washington ($5,000) \hfill 2021
 - Population Health Research Award, UW Population Health Initiative \hfill 2020
 - University of Washington Honors Program \hfill 2021
 - University of Washington Dean's list \hfill 2018-21
