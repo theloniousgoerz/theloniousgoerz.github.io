@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-See a current copy of my cv [here](https://github.com/theloniousgoerz/theloniousgoerz.github.io/blob/master/files/goerz_cv_updated.pdf)
+Click here for a current copy of my [CV](fix)
