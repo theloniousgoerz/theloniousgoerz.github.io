@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-Click here for a current copy of my [CV](files/main.pdf)
+Click here for a current copy of my [CV](/files/main.pdf)
