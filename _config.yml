@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Thelonious Goerz"
-  avatar           : "tg_headshot.jpeg"
+  avatar           : "Goerz_Headshot.jpeg"
   bio              : "Pre-doctoral fellow, Sociology"
-  location         : "Seattle, Washington"
+  location         : "Baltimore, MD"
   employer         : "Johns Hopkins University"
   googlescholar    : 
-  email            : "Theloniouslgoerz@gmail.com"
+  email            : "tlg95@cornell.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
