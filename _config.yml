@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "<link rel="shortcut icon" href="/images/logo.jpeg"> Thelonious Goerz"
 title_separator          : "-"
 name                     : &name "Home"
 description              : &description "Pre-doctoral fellow, Johns Hopkins University"
