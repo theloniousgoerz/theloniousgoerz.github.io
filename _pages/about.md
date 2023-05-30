@@ -16,7 +16,7 @@ Prior to this, I graduated from the University of Washington with a B.A. and wro
 
 
 <div class="row">
-  <div class="col-md-6" markdown="1">
+  <div class="col-md-5" markdown="1">
 ### Research Interests
 
 * Demography 
@@ -24,6 +24,7 @@ Prior to this, I graduated from the University of Washington with a B.A. and wro
 * Health and aging
 * Quantitative methods
   </div>
+  
   <div class="col-md-6" markdown="1">
 ### Education
 
