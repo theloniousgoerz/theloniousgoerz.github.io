@@ -16,16 +16,15 @@ Prior to this, I graduated from the University of Washington with a B.A. and wro
 
 
 <div class="row">
-  <div class="col-md-5" markdown="1">
+  <div class="col-md-4" markdown="1">
 ### Research Interests
 
 * Demography 
 * Neighborhoods
 * Health and aging
 * Quantitative methods
-  </div>
-  
-  <div class="col-md-6" markdown="1">
+</div>
+<div class="col-md-3" markdown="1">
 ### Education
 
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/graduation-cap.svg" width="15" height="15"> Ph.D., Sociology
@@ -35,8 +34,7 @@ Cornell University, 2023-
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/graduation-cap.svg" width="15" height="15"> B.A., Sociology
 
 University of Washington, 2018-2021
-
   </div>
-</div>
+
 
 
