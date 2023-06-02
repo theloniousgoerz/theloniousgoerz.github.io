@@ -1,3 +1,6 @@
 _site/
 .DS_store
 .Rproj.user
+# In progress/ Mostly for my own thinking 
+.portfolio-1.md
+.portfolio-1.html
