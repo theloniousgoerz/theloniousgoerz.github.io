@@ -5,13 +5,13 @@ permalink: /resources/
 
 This is an ongoing list of resources, books, and websites on programming, statistics, and computational social science that I have found useful while studying quantitative methods through formally and independently.
 
-## Programming 
+## Programming
 
 -   [CSE 414 \@ UW](https://sites.google.com/cs.washington.edu/cse414-22au/)
 
 The vast majority of UW's CSE curriculum is available on Google sites or github which is an invaluable resource. CSE 414 is the intro to database management and SQL course which has all the lecture slides, homework, and solutions posted online for free. They are very well explained and accessibly introduced.
 
-## Statistics 
+## Statistics
 
 -   [Applied Linear Regression](https://www.stat.purdue.edu/~qfsong/teaching/525/book/Weisberg-Applied-Linear-Regression-Wiley.pdf) by Sanford Weisberg
 
