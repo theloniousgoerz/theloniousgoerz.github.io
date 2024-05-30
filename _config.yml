@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Thelonious Goerz"
 title_separator          : "-"
 name                     : &name "Home"
-description              : &description "Ph.D. Student, Cornell University"
+description              : &description "2nd-year Ph.D. Student, Cornell University"
 url                      : https://theloniousgoerz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "theloniousgoerz.github.io"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Thelonious Goerz"
-  avatar           : "tg_headshot_2.jpg"
+  avatar           : "headshot.JPG"
   bio              : "Ph.D. Student, Sociology"
   location         : "Ithaca, NY"
   employer         : "Cornell University"
@@ -102,10 +102,10 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : 
+  orcid            : "0009-0009-3434-2635"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : "theloniousgoerz"
