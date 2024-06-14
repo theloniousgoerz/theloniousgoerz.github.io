@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  21 MAY 2024 12:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  14 JUN 2024 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06>
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
 \c@section=\count168
@@ -381,12 +381,12 @@ e
 * \topmargin=-93.60954pt
 * \headheight=62.59596pt
 * \headsep=21.33955pt
-* \topskip=10.0pt
+* \topskip=11.0pt
 * \footskip=28.45274pt
-* \marginparwidth=65.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=2.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -477,7 +477,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--74
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
 
@@ -511,40 +511,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-Package marginnote Info: Margin note 1.6 is on absolute page 1 on input line 91
+Package marginnote Info: Margin note 1.6 is on absolute page 2 on input line 91
 .
 Package marginnote Info: right page because not two side mode on input line 91.
 
 Package marginnote Info: xpos seems to be 62.59596pt on input line 91.
+[1
 
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
-Package marginnote Info: Margin note 1.7 is on absolute page 2 on input line 94
+Package marginnote Info: Margin note 2.1 is on absolute page 2 on input line 94
 .
 Package marginnote Info: right page because not two side mode on input line 94.
 
 Package marginnote Info: xpos seems to be 62.59596pt on input line 94.
-[1
-
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package marginnote Info: Margin note 2.1 is on absolute page 2 on input line 96
+Package marginnote Info: Margin note 2.2 is on absolute page 2 on input line 96
 .
 Package marginnote Info: right page because not two side mode on input line 96.
 
 Package marginnote Info: xpos seems to be 62.59596pt on input line 96.
-Package marginnote Info: Margin note 2.2 is on absolute page 2 on input line 98
+Package marginnote Info: Margin note 2.3 is on absolute page 2 on input line 98
 .
 Package marginnote Info: right page because not two side mode on input line 98.
 
 Package marginnote Info: xpos seems to be 62.59596pt on input line 98.
-Package marginnote Info: Margin note 2.3 is on absolute page 2 on input line 99
+Package marginnote Info: Margin note 2.4 is on absolute page 2 on input line 99
 .
 Package marginnote Info: right page because not two side mode on input line 99.
 
 Package marginnote Info: xpos seems to be 62.59596pt on input line 99.
-Package marginnote Info: Margin note 2.4 is on absolute page 2 on input line 10
+Package marginnote Info: Margin note 2.5 is on absolute page 2 on input line 10
 0.
 Package marginnote Info: right page because not two side mode on input line 100
 .
@@ -554,37 +553,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--101
 
  []
 
-Package marginnote Info: Margin note 2.5 is on absolute page 2 on input line 10
+Package marginnote Info: Margin note 2.6 is on absolute page 2 on input line 10
 7.
 Package marginnote Info: right page because not two side mode on input line 107
 .
 Package marginnote Info: xpos seems to be 62.59596pt on input line 107.
-Package marginnote Info: Margin note 2.6 is on absolute page 2 on input line 10
+Package marginnote Info: Margin note 2.7 is on absolute page 2 on input line 10
 8.
 Package marginnote Info: right page because not two side mode on input line 108
 .
 Package marginnote Info: xpos seems to be 62.59596pt on input line 108.
-Package marginnote Info: Margin note 2.7 is on absolute page 2 on input line 10
+Package marginnote Info: Margin note 2.8 is on absolute page 2 on input line 10
 9.
 Package marginnote Info: right page because not two side mode on input line 109
 .
 Package marginnote Info: xpos seems to be 62.59596pt on input line 109.
-Package marginnote Info: Margin note 2.8 is on absolute page 2 on input line 11
+Package marginnote Info: Margin note 2.9 is on absolute page 2 on input line 11
 0.
 Package marginnote Info: right page because not two side mode on input line 110
 .
 Package marginnote Info: xpos seems to be 62.59596pt on input line 110.
-Package marginnote Info: Margin note 2.9 is on absolute page 2 on input line 11
-1.
+Package marginnote Info: Margin note 2.10 is on absolute page 2 on input line 1
+11.
 Package marginnote Info: right page because not two side mode on input line 111
 .
 Package marginnote Info: xpos seems to be 62.59596pt on input line 111.
-Package marginnote Info: Margin note 2.10 is on absolute page 2 on input line 1
+Package marginnote Info: Margin note 2.11 is on absolute page 2 on input line 1
 12.
 Package marginnote Info: right page because not two side mode on input line 112
 .
 Package marginnote Info: xpos seems to be 62.59596pt on input line 112.
-Package marginnote Info: Margin note 2.11 is on absolute page 2 on input line 1
+Package marginnote Info: Margin note 2.12 is on absolute page 2 on input line 1
 13.
 Package marginnote Info: right page because not two side mode on input line 113
 .
@@ -615,29 +614,29 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 8694 strings out of 480608
- 126950 string characters out of 5903631
- 408982 words of memory out of 5000000
- 24428 multiletter control sequences out of 15000+600000
- 544384 words of font info for 50 fonts, out of 8000000 for 9000
+ 8695 strings out of 480608
+ 126987 string characters out of 5903631
+ 409003 words of memory out of 5000000
+ 24429 multiletter control sequences out of 15000+600000
+ 544701 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,9n,39p,370b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,9n,39p,370b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.
 enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/fontawesome/fontawesome
 three.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/fontawesome/fonta
 wesometwo.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/fontawesom
 e/FontAwesome.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-sup
-er/sfbx1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super
+er/sfbx1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super
 /sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/s
 fbx1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfc
-c1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0
-800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm090
-0.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.
+c1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0
+800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm100
+0.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.
 pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pf
-b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
 
-Output written on main.pdf (2 pages, 154593 bytes).
+Output written on main.pdf (2 pages, 162857 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
