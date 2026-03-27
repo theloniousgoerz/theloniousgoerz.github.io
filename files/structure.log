@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  15 APR 2024 09:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  27 MAR 2026 12:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **structure.tex
 (./structure.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
 
 ! LaTeX Error: \usepackage before \documentclass.
 
@@ -82,7 +82,9 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 3 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -93,7 +95,9 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 3 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -102,7 +106,9 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 3 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -112,7 +118,9 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 3 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -127,7 +135,9 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 3 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -159,6 +169,11 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no , in font nullfont!
+
+Overfull \hbox (1.0pt too wide) in paragraph at lines 33--43
+[]
+ []
+
 
 ! LaTeX Error: \usepackage before \documentclass.
 
@@ -200,7 +215,7 @@ between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
 l.59 \sectionfont
-                 {\ExtraLarge {20pt}{20pt}\selectfont} % Set font options fo...
+                 {\ExtraLarge {10pt}{10pt}\selectfont} % Set font options fo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -209,7 +224,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.59 \sectionfont{\ExtraLarge
-                              {20pt}{20pt}\selectfont} % Set font options fo...
+                              {10pt}{10pt}\selectfont} % Set font options fo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -223,17 +238,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \sectionfont{\ExtraLarge {2
-                                0pt}{20pt}\selectfont} % Set font options fo...
+l.59 \sectionfont{\ExtraLarge {1
+                                0pt}{10pt}\selectfont} % Set font options fo...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -284,6 +299,11 @@ l.61 ...font{\mdseries\upshape\bfseries\normalsize
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+Overfull \hbox (1.0pt too wide) in paragraph at lines 59--62
+[]
+ []
 
 
 ! LaTeX Error: \usepackage before \documentclass.
@@ -449,11 +469,11 @@ Missing character: There is no e in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 27 strings out of 480608
- 506 string characters out of 5903631
- 239610 words of memory out of 5000000
- 16018 multiletter control sequences out of 15000+600000
- 532947 words of font info for 26 fonts, out of 8000000 for 9000
+ 26 strings out of 473190
+ 473 string characters out of 5715801
+ 391984 words of memory out of 5000000
+ 23377 multiletter control sequences out of 15000+600000
+ 559446 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 13i,1n,15p,127b,82s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 15i,1n,20p,153b,80s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!

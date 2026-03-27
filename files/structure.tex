@@ -21,7 +21,7 @@
 
 \usepackage{graphicx} % Required for including images
 \usepackage{fontawesome}
-\setlength{\parindent}{0pt} % Stop paragraph indentation
+\setlength{\parindent}{1pt} % Stop paragraph indentation
 
 %----------------------------------------------------------------------------------------
 %	MARGINS
@@ -56,9 +56,10 @@
 
 \usepackage{sectsty} % Allows changing the font options for sections in a document
 
-\sectionfont{\ExtraLarge {11pt}{11pt}\selectfont} % Set font options for sections
+\sectionfont{\ExtraLarge {10pt}{10pt}\selectfont} % Set font options for sections
 \subsectionfont{\mdseries\scshape\normalsize} % Set font options for subsections
 \subsubsectionfont{\mdseries\upshape\bfseries\normalsize} % Set font options for subsubsections
+
 
 %----------------------------------------------------------------------------------------
 %	MARGIN YEARS
@@ -68,15 +69,16 @@
 
 \newcommand{\years}[1]{\marginnote{\small #1}} % New command for adding years to the margin
 \renewcommand*{\raggedleftmarginnote}{} % Left-align the years in the margin
-\setlength{\marginparsep}{2pt} % Move the margin content closer to the text
-%s\reversemarginpar % Margin text to be output into the left margin instead of the default right margin
+\setlength{\marginparsep}{-30pt} % Move the margin content closer to the text
+\reversemarginpar % Margin text to be output into the left margin instead of the default right margin
 
 % Create section heading with line for readability. 
-\newcommand{\sectionheading}[1]{%
-  \noindent
+\renewcommand{\sectionheading}[1]{%
+  \bigskip \noindent
   \makebox[0pt][l]{\rule[-.5\baselineskip]{\linewidth}{.1mm}}%
   \textbf{#1}\par\nobreak 
- \vspace{0.01\textheight}
+  \vspace{0.01\textheight}
+  \everypar{\hangindent=2em} % <--- This indents every subsequent line by 2em
 }
 
 %----------------------------------------------------------------------------------------

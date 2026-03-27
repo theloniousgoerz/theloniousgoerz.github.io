@@ -1,141 +1,198 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Compact Academic CV
-% LaTeX Template
-% Version 2.0 (6/7/2019)
-%
-% This template originates from:
-% https://www.LaTeXTemplates.com
-%
-% Authors:
-% Dario Taraborelli (http://nitens.org/taraborelli/home)
-% Vel (vel@LaTeXTemplates.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+% CV TEMPLATE — modeled on academic CV style
+% Sections use small caps + horizontal rule; years in left margin
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt]{article} % Default document font size
+\documentclass[10pt, letterpaper]{article}
 
-\input{structure.tex} % Include the file specifying the document structure and styling
+%----------------------------------------------------------------------------------------
+% PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage[
+  top=1.5cm,
+  bottom=1.5cm,
+  left=2.5cm,
+  right=2.5cm,
+  marginparwidth=2cm,   % width of the left margin column
+  marginparsep=12pt     % distance between margin and text body
+]{geometry}
 
-% Set PDF meta-information
+\usepackage{marginnote}         % margin year labels
+\usepackage{hyperref}           % clickable links
+\usepackage{microtype}          % better justification
+\usepackage{enumitem}           % list control
+\usepackage{parskip}            % spacing between paragraphs
+\usepackage{fontenc}
+\usepackage{indentfirst}
+\usepackage{fontawesome}
+\usepackage[utf8]{inputenc}
+
+% Hyperlink styling
 \hypersetup{
-	pdftitle={Goerz - Curriculum vitae},
-	pdfauthor={Thelonious Goerz}
+  colorlinks=true,
+  urlcolor=blue,
+  linkcolor=blue
 }
-\usepackage{amsmath}
-%----------------------------------------------------------------------------------------
 
+%----------------------------------------------------------------------------------------
+% MARGIN YEAR COMMAND
+%----------------------------------------------------------------------------------------
+\newcommand{\years}[1]{\marginnote{\small #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{-65pt}
+\reversemarginpar   % years appear on the LEFT margin
+\newenvironment{sectionbody}
+  {\begin{list}{}{\setlength{\leftmargin}{50pt}}\item[]}
+  {\end{list}}
+%----------------------------------------------------------------------------------------
+% SECTION HEADING: small caps label + full-width rule beneath
+%----------------------------------------------------------------------------------------
+\newcommand{\sectionheading}[1]{%
+  \vspace{0.5em}
+  \noindent
+  \makebox[0pt][l]{\rule[-.5\baselineskip]{\linewidth}{.1mm}}%
+  \textsc{#1}\par\nobreak
+  \vspace{0.4em}
+}
+
+% Suppress default section formatting; we use \sectionheading manually
+%\setlength{\parindent}{0pt}     % no first-line indent
+\setlength{\leftskip}{10pt}     % indent ALL lines equally
+
+%----------------------------------------------------------------------------------------
+% DOCUMENT
+%----------------------------------------------------------------------------------------
 \begin{document}
 
 %----------------------------------------------------------------------------------------
-%	CONTACT AND GENERAL INFORMATION
+% HEADER
 %----------------------------------------------------------------------------------------
-{\Large \textbf{Thelonious L. Goerz}} \\
+{\LARGE\textbf{Thelonious Goerz}}\\[0.4em]
+\vspace{0.3em}
+\makebox[0pt][l]{\rule[-.5\baselineskip]{\linewidth}{.1mm}} \\
 
-
-Department of Sociology \\
-Cornell University \hfill \faicon{envelope} : \href{mailto:theloniouslgoerz@gmail.com}{Email}\\ % Email address
-Uris Hall, 380  \hfill \faicon{github} : \href{https://github.com/theloniousgoerz/}{GitHub}\\ % Academic/personal website
-Tower Rd, Ithaca, NY \hfill \faicon{user} : \href{theloniousgoerz.github.io}{Homepage} \\
-
-\vspace{0.001\textheight} % Whitespace between contact information and specific CV information
-
-%------------------------------------------------
-
-%------------------------------------------------
-\sectionheading{\Large Current Position}
- \years{2023-}  \textbf{Ph.D. Candidate, Sociology and Public Policy} \\
- Cornell University \\
- Affiliate: \\
-\hspace*{10mm} Cornell Population Center 
-\\ \hspace*{10mm} Cornell Center for the Study of Inequality \\
-\hspace*{10mm} Cornell Center for Social Sciences \\
-
-\sectionheading{\Large Education}
- \years{2025} \textbf{M.A., Sociology and Public Policy} \\
+\begin{minipage}[t]{0.5\textwidth}
+  Department of Sociology \\
   Cornell University \\
- Committee: Matthew Hall (Chair), Erin York Cornwell, Peter Rich (UW-Madison) \\
-\hspace*{10mm} Exams: Social Stratification, Demography\\
- \hspace*{10mm}  Minor in Demography \\
+  Uris Hall, 380 \\ 
+  Ithaca, NY, 14850 \\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \raggedleft
+\faicon{envelope} \href{mailto:theloniouslgoerz@gmail.com}{Email}\\ % Email address
+\faicon{github} \href{https://github.com/theloniousgoerz/}{GitHub}\\ % Academic/personal website
+\faicon{user} \href{theloniousgoerz.github.io}{Homepage} \\
+\end{minipage}
 
-\years{2021} \textbf{B.A., Sociology} \\
- University of Washington, \emph{Cum Laude}, Phi Beta Kappa \\
+%----------------------------------------------------------------------------------------
+% ACADEMIC POSITION
+%----------------------------------------------------------------------------------------
+\sectionheading{Academic Position}
+\begin{sectionbody}
+\years{2023--}
+Ph.D. Candidate, Sociology, Cornell University
 
-\sectionheading{\Large Research Interests}
-\large\faicon{book} Demography, Social Stratification, Race/Ethnicity, Historical Demography, Urban Sociology, Health\\
-\large\faicon{bar-chart} Causal Inference, Computational Methods, Spatial Data Analysis \\
+\vspace{0.3em}
+Affiliate: \\
+\hspace{1em}Cornell Population Center\\
+\hspace{1em}Center for the Study of Inequality\\
+\hspace{1em}Cornell Center for Social Sciences \\
+\end{sectionbody}
+%----------------------------------------------------------------------------------------
+% EDUCATION
+%----------------------------------------------------------------------------------------
+\sectionheading{Education}
+\begin{sectionbody}
 
-%------------------------------------------------
+\years{2025} M.A., Sociology (Minor: Demography), Cornell University \\
+\footnotesize Committee: Matthew Hall (Chair), Peter Rich (UW-Madison), Douglas Miller (Economics and Public Policy), Kendra Bischoff \\
+\footnotesize Exams: Social Stratification, Demography\\
 
-\sectionheading{\Large Working Papers} 
-Thelonious Goerz. "Racial Segregation and Black-White Longevity Disparities" \emph{Under Review} [\href{https://osf.io/preprints/socarxiv/gys4t_v2}{working paper}] [\href{https://github.com/theloniousgoerz/bw_segregation_longevity}{replication package}]  \\
-Adriana M. Reyes and Thelonious Goerz. "Inequalities in Parental Support in Life and Death" [\textit{Draft available}] \\
-Thelonious Goerz and Matt Hall. "Declining Significance or Changing Bases? Income and Racial Segregation (1970-2020)" \\
-Thelonious Goerz and Adriana M Reyes. "Cultural Foundations and Cohort Differences in Giving Intentions" \\
+\years{2021} B.A., Sociology (Minor: Data Science), University of Washington\\
+\emph{Cum Laude}, Phi Beta Kappa \\
+\end{sectionbody}
 
+%----------------------------------------------------------------------------------------
+% RESEARCH AREAS
+%----------------------------------------------------------------------------------------
+\sectionheading{Research Areas}
+\begin{sectionbody}
+\faicon{book} Demography, Social Stratification, Race/Ethnicity, Historical Demography, Urban Sociology, Health\\
+\faicon{bar-chart} Causal Inference, Computational Methods, Spatial Data Analysis \\
+\end{sectionbody}
 
-\sectionheading{\Large Presentations}
-Goerz, T. and Hall, M."Declining Significance or Changing Bases? Income and Racial Segregation (1970-2020)"
-\begin{itemize}
-\item PAA Flash Session, 2026 (scheduled)
-\item Cornell Inequality Discussion Group, 2026 (scheduled)
-\end{itemize}
-Hess, C., Yi, Y., Goerz, T., and Hall, M. "Experienced Diversity and Social Capital"
-\begin{itemize}
-\item PAA Oral Session, 2026 (scheduled)
-\item Cornell Inequality Discussion Group, 2026 (scheduled)
-\end{itemize}
-Reyes, A. and Goerz, T. "Inequalities in Parental Support in Life and Death"
-\begin{itemize}
-\item PAA Oral Session, 2026 (scheduled)
-\item Cornell Gender, Family, and Fertility Working Group, 2025
-\end{itemize}
-Goerz, T. "Racial Segregation and Black-White Longevity Disparities"
-\begin{itemize}
-\item  University of Washington, Center for Studies in Demography and Ecology, Computational Demography Working Group, 2024
-\item Cornell Inequality Discussion Group, 2024
-\item PAA Poster, 2025
-\item PAA Poster Award Winner
-\end{itemize}
-Goerz, T. "Skin Tone Stratification and The Hispanic Health Paradox"
-\begin{itemize}
-\item  Cornell Migration Lab Working Group
-\item PAA Poster, 2025
-\end{itemize}
-Goerz, T. "Local Age-Composition and Stress: Residential and Activity Space Exposures to Age-peers among Older Adults in Chicago"
-\begin{itemize}
-\item Mobile Apps and Sensors in Surveys, 2024
-\item PAA, 2024 
-\item ASA, 2024
-\end{itemize}
-Goerz, T. "Race, Class, and Light Rail Transit: Examining the Role of High-Income Mobility in Demographic Change"
-\begin{itemize}
-\item ASA, 2021
-\item PAA, 2022
-\end{itemize}
-\sectionheading{\Large Research Experience}
+%----------------------------------------------------------------------------------------
+% PUBLICATIONS
+%----------------------------------------------------------------------------------------
+\sectionheading{Works in Progress}
+\begin{sectionbody}
+Thelonious Goerz. Racial Segregation and Black-White Longevity Disparities [\href{https://osf.io/preprints/socarxiv/gys4t_v2}{working paper}] [\href{https://github.com/theloniousgoerz/bw_segregation_longevity}{replication package}]  \\
+\vspace{0.3em}
+Adriana M. Reyes and Thelonious Goerz. Inequalities in Parental Support in Life and Death [\textit{Draft available}] \\
+\vspace{0.3em}
+Thelonious Goerz and Matt Hall. Declining Significance or Changing Bases? Income and Racial Segregation (1970-2020) \\
+\vspace{0.3em}
+Thelonious Goerz and Adriana M Reyes. Inherited Obligations: How Receiving an Inheritance Shapes Bequest Intentions \\
+\vspace{0.3em}
+Thelonious Goerz and Jiwon Lee (Equal Authorship). Japanese Classification After Internment: Evidence from Linked 1940–1950 Census Records \\
+\end{sectionbody}
+
+%--------------------------------------------------------
+
+\sectionheading{Presentations}
+\begin{sectionbody}
+Goerz, T. and Hall, M. Declining Significance or Changing Bases? Income and Racial Segregation (1970-2020) \\
+\hspace*{10mm}Cornell Inequality Discussion Group, 2026 (scheduled)\\
+\hspace*{10mm}PAA Oral Session, 2026 (scheduled) \\
+\vspace{0.3em}
+Hess, C., Yi, Y., Goerz, T., and Hall, M. Experienced Diversity and Social Capital \\
+\hspace*{10mm}PAA Flash Session, 2026 (scheduled)\\
+\vspace{0.3em}
+Reyes, A. and Goerz, T. Inequalities in Parental Support in Life and Death \\
+ \hspace*{10mm}PAA Oral Session, 2026 (scheduled)\\
+\hspace*{10mm}Cornell Gender, Family, and Fertility Working Group, 2025\\
+\vspace{0.3em}
+Goerz, T. Racial Segregation and Black-White Longevity Disparities \\
+\hspace*{10mm}University of Washington, CSDE, Computational Demography Working Group, 2024 \\
+\hspace*{10mm}Cornell Inequality Discussion Group, 2024\\
+\hspace*{10mm} PAA Poster, 2025\\
+\hspace*{10mm} PAA Poster Award Winner\\
+\vspace{0.3em}
+Goerz, T. Skin Tone Stratification and The Hispanic Health Paradox \\
+\hspace*{10mm}Cornell Migration Lab Working Group\\
+\hspace*{10mm}PAA Poster, 2025\\
+\vspace{0.3em}
+Goerz, T. Local Age-Composition and Stress: Residential and Activity Space Exposures to Age-peers among Older Adults in Chicago \\
+Mobile Apps and Sensors in Surveys, 2024 \\
+\hspace*{10mm} PAA, 2024  \\
+\hspace*{10mm}ASA, 2024 \\
+
+\end{sectionbody}
+
+\sectionheading{Research Experience}
+\begin{sectionbody}
 \years{2024-}{\textbf{Cornell University}, Ithaca, NY} \\ 
 Graduate Research Assistant to Dr. Adriana Reyes \\
 \years{2023}{\textbf{Cornell University}, Ithaca, NY} \\ 
 Graduate Research Assistant to Dr. Erin York Cornwell \\  
 \years{2021-23}{\textbf{Johns Hopkins University}, Baltimore, MD} \\ Predoctoral Research Fellow \\
 \years{2020-21}{\textbf{Department of Sociology, University of Washington}, Seattle, WA} \\ Research Assistant \\ 
-\years{2020-20}{\textbf{Department of Public Health, University of Washington}, Seattle, WA} \\ Research Assistant \\ 
+\years{2020-20}{\textbf{Department of Public Health, University of Washington}, Seattle, WA} \\ Research Assistant 
+\end{sectionbody}
 
-\sectionheading{\Large Teaching}
+\sectionheading{Teaching}
+
+\begin{sectionbody}
 \textbf{Cornell University}, Ithaca, NY \\
-\years{2024} Teaching Assistant, SOC 1101 Introduction to Sociology [summer term] \\
+\years{2024} Teaching Assistant, SOC 1101 Introduction to Sociology [summer term] 
 
+\end{sectionbody}
 %----------------------------------------------------------------------------------------
 %	GRANTS, HONOURS AND AWARDS
 %----------------------------------------------------------------------------------------
-\sectionheading{\Large Honors, Awards, and Funding}
+\sectionheading{Honors, Awards, and Funding}
+\begin{sectionbody}
 \years{2025} Research Support Grant, Cornell Population Center,
 Cornell University \\
 \years{2023-25} PAA Travel Grant (x3), Cornell Population Center,Cornell University \\
@@ -146,25 +203,75 @@ Cornell University \\
 \years{2021} Mary Gates Undergraduate Research Award, University of Washington (\$5,000)	\\	
 \years{2020} Population Health Research Award, UW Population Health Initiative 	\\
 \years{2018-21} University of Washington Dean’s List \\					     
+\end{sectionbody}
 
-\sectionheading{\Large Skills}
+\sectionheading{Skills}
+\begin{sectionbody}
 Software: R, Stata, SQL, \LaTeX, ArcGIS, MAXQDA, Git, GitHub, Bash \\
 Languages: English [native]; Spanish [intermediate] \\
+\end{sectionbody}
 
-\sectionheading{\Large Service}
+\sectionheading{Service}
+\begin{sectionbody}
 \years{2025-2026} Co-President, Sociology Graduate Student Association \\
 \years{2024-2025} Research Symposium Co-Chair, Sociology Graduate Student Association \\
 \years{2024} Mentor, Consider Cornell Ph.D. Recruitment Experience \\
 \smallskip 
+\end{sectionbody}
 
-\sectionheading{\Large Affiliations}
+\sectionheading{Professional Affiliations}
+\begin{sectionbody}
 Population Association of America \\
 American Sociological Association \\
 Sections: \\
 \hspace*{10mm} Inequality, Poverty and Mobility \\
 \hspace*{10mm} Sociology of Population \\
 \hspace*{10mm} Community and Urban Sociology \\
+\end{sectionbody}
+%\sectionheading{Research Mentorship}
 
+%\begin{tabular}{lll}
+%\textit{Name} & \textit{Position} & \textit{Current Position} \\[0.3em]
+%Mentee Name  & Research Assistant, [Project] & [Current Role], [Institution] \\
+%Mentee Name  & Predoctoral Researcher, [Project] & Ph.D. Student, [University] \\
+%\end{tabular}
+%----------------------------------------------------------------------------------------
+% REFERENCES
+%----------------------------------------------------------------------------------------
+%\sectionheading{References}
 
+%%\begin{minipage}[t]{0.45\textwidth}
+%  \textbf{\href{mailto:ref1@university.edu}{\textcolor{blue}{Reference One}}}\\
+%  [Title]\\
+%  [Department]\\
+%  [University]\\
+%  \texttt{ref1@university.edu}
+%\end{minipage}
+%%\hfill
+%%\begin{minipage}[t]{0.45\textwidth}
+%  \textbf{\href{mailto:ref2@university.edu}{\textcolor{blue}{Reference Two}}}\\
+%  [Title]\\
+%  [Department]\\
+%  [University]\\
+%  \texttt{ref2@university.edu}
+%\end{minipage}
+%
+%%\vspace{1em}
+%
+%%\begin{minipage}[t]{0.45\textwidth}
+%  \textbf{\href{mailto:ref3@university.edu}{\textcolor{blue}{Reference Three}}}\\
+%  [Title]\\
+%  [Department]\\
+%  [University]\\
+%  \texttt{ref3@university.edu}
+%\end{minipage}
+%%\hfill
+%%\begin{minipage}[t]{0.45\textwidth}
+%  \textbf{\href{mailto:ref4@university.edu}{\textcolor{blue}{Reference Four}}}\\
+%  [Title]\\
+%  [Department]\\
+%  [University]\\
+%  \texttt{ref4@university.edu}
+%\end{minipage}
 
 \end{document}
