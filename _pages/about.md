@@ -14,7 +14,7 @@ I am an affiliate of the [Cornell Population Center](https://publicpolicy.cornel
 
 Previously, I was a pre-doctoral research fellow in sociology and economics at Johns Hopkins University. I graduated from the University of Washington, Seattle with a B.A. in sociology.
 
-Please get in touch via email if you would like to connect (tlg95@cornell.ed). 
+Please get in touch via email if you would like to connect (tlg95@cornell.edu). 
 
 
 
