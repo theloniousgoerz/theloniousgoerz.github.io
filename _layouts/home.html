@@ -1,0 +1,47 @@
+---
+layout: base
+---
+
+<div class="wrap">
+
+  <div class="hero">
+    <p class="kicker lab">{{ page.kicker }}</p>
+    <div>
+      <h1>{{ page.headline }}</h1>
+      <div class="lede">{{ content }}</div>
+      <div class="ctas">
+        <a class="btn primary" href="{{ '/research/' | relative_url }}">Research</a>
+        <a class="btn ghost" href="{{ '/cv/' | relative_url }}">CV</a>
+      </div>
+    </div>
+    <img class="portrait" src="{{ '/images/headshot-2025.jpg' | relative_url }}"
+         alt="Portrait of Thelonious Goerz" width="450" height="515">
+  </div>
+
+  <div class="hr"></div>
+
+  <h2 class="sec">Focus <em>/</em> Methods</h2>
+  <ul class="chips">
+    {% for chip in page.chips %}<li>{{ chip }}</li>{% endfor %}
+  </ul>
+
+  <div class="twocol">
+    <div>
+      <h2 class="sec">Affiliations</h2>
+      <p class="aff">
+        {% for a in page.affiliations %}{{ a }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}
+      </p>
+    </div>
+    <div>
+      <h2 class="sec">Contact</h2>
+      <p class="contact">
+        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><br>
+        <a href="https://github.com/{{ site.author.github }}">GitHub</a> &middot;
+        <a href="{{ site.author.orcid }}">ORCID</a> &middot;
+        <a href="https://twitter.com/{{ site.author.twitter }}">Twitter</a><br>
+        {{ site.author.location }}
+      </p>
+    </div>
+  </div>
+
+</div>

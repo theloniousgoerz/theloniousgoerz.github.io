@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="{{ site.locale | default: 'en-US' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.permalink != '/' %}{{ page.title }} {{ site.title_separator | default: '-' }} {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="shortcut icon" href="{{ '/images/logo.jpeg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  {% feed_meta %}
+</head>
+<body>
+
+  <header>
+    <nav class="sitenav" aria-label="Main">
+      <a class="logo" href="{{ '/' | relative_url }}">Thelonious <b>Goerz</b></a>
+      <ul>
+        {% for item in site.data.navigation.main %}
+          <li>
+            <a class="navlink{% if page.url == item.url %} on{% endif %}"
+               href="{{ item.url | relative_url }}"
+               {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="sitefoot">
+    <span>&copy; {{ site.time | date: '%Y' }} Thelonious Goerz</span>
+    <span><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> &middot; Sociology, Cornell University</span>
+  </footer>
+
+</body>
+</html>

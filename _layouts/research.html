@@ -1,0 +1,39 @@
+---
+layout: base
+---
+
+<div class="wrap">
+
+  <h1 class="pagetitle">{{ page.title }}</h1>
+  <p class="pagedeck">{{ page.deck }}</p>
+
+  <h2 class="sec">01 <em>/</em> Under review</h2>
+  <div class="papers">
+    {% for p in site.data.research.under_review %}
+      {% include paper.html p=p kind="ur" %}
+    {% endfor %}
+  </div>
+
+  <h2 class="sec">02 <em>/</em> Works in progress</h2>
+  <div class="papers">
+    {% for p in site.data.research.in_progress %}
+      {% include paper.html p=p kind="wip" %}
+    {% endfor %}
+  </div>
+
+  <h2 class="sec">03 <em>/</em> Selected presentations</h2>
+  <ul class="pres">
+    {% for pr in site.data.presentations %}
+      <li>
+        <span class="pr-year">{{ pr.year }}</span>
+        <span>
+          <span class="pr-title">{{ pr.title }}</span>{% if pr.award %}<span class="award">{{ pr.award }}</span>{% endif %}
+          <br><span class="pr-venue">{{ pr.venue }}</span>
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {{ content }}
+
+</div>

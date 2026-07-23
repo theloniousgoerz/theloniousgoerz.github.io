@@ -1,0 +1,95 @@
+# ---------------------------------------------------------------------------
+# Research entries shown on /research/
+#
+# To add a paper: copy a block below, keep the indentation, fill in the fields.
+#   title     - paper title
+#   authors   - author list as you want it displayed
+#   status    - small label above the title (e.g. "Under review", "In progress")
+#   abstract  - the abstract. Leave blank/remove for "Abstract forthcoming".
+#               Use the "|" block style below so line breaks are safe.
+#   note      - optional extra line shown when there is no abstract yet
+#   tags      - optional list of short keywords
+#   links     - optional list of {label, href}
+# ---------------------------------------------------------------------------
+
+under_review:
+  - title: "Racial Segregation and Black-White Longevity Disparities"
+    authors: "Thelonious Goerz"
+    status: "Under review"
+    tags:
+      - "Causal inference"
+      - "Historical demography"
+      - "Linked census data"
+    abstract: >
+      Racial segregation is widely understood to be a mechanism linking racial stratification
+      to zero-sum Black-White outcomes. However, historical and demographic evidence show that
+      segregation also shapes broader, macro-level dynamics, such as income sorting, the
+      availability of public goods, and policy outcomes that undermine the well-being of all
+      residents. This paper tests the argument that segregation leads to White advantage and,
+      simultaneously, Black disadvantage. To do so, I link 1905-1920 birth cohorts in the 1940
+      Census to Social Security death records and use an instrumental-variable design leveraging
+      variation in government fragmentation to estimate the effect of segregation on longevity.
+      Estimates reveal a 10-point increase in segregation reduced Black and White longevity by
+      0.44 and 0.29 years, respectively, with pronounced harms for less-educated Whites. These
+      findings highlight how mechanisms of racial stratification intersect with population
+      processes and social class to shape life chances across racial groups, thus countering
+      zero-sum arguments.
+    links:
+      - label: "Preprint (SocArXiv)"
+        href: "https://osf.io/preprints/socarxiv/gys4t_v2"
+      - label: "Replication package"
+        href: "https://github.com/theloniousgoerz/bw_segregation_longevity"
+
+  - title: "Reinforcing Inequality: Within Family Division of Transfers and Bequests"
+    authors: "Adriana M. Reyes and Thelonious Goerz"
+    status: "Under review"
+    tags:
+      - "Family demography"
+      - "Wealth transfers"
+      - "HRS"
+    abstract: >
+      Intergenerational transfers are a key mechanism through which families reproduce or
+      mitigate inequality. While prior research highlights the unequal and needs-based nature
+      of inter vivos transfers, bequests are often viewed as more normatively equal. This study
+      examines whether bequests function as a corrective to earlier disparities or reinforce
+      inequalities within families. Using family fixed effects models and data from the Health
+      and Retirement Study, we find that children who receive more inter vivos transfers are
+      also more likely to receive a bequest and a larger bequest. We find no moderating role of
+      education, while children who do not own a home are more likely to receive a bequest.
+      These patterns suggest that bequests may reinforce rather than offset prior inequalities.
+      Findings have implications for understanding the reproduction of advantage and for
+      policies aimed at reducing wealth inequality across generations.
+    links:
+      - label: "Preprint (SocArXiv)"
+        href: "https://osf.io/preprints/socarxiv/erthf_v1"
+
+in_progress:
+  - title: "Declining Significance or Changing Bases? Income and Racial Segregation, 1970-2020"
+    authors: "Thelonious Goerz and Matt Hall"
+    status: "In progress"
+    note: "PAA 2026, oral presentation (scheduled)"
+    tags:
+      - "Segregation"
+      - "Income sorting"
+      - "Decennial census"
+    abstract:
+    links:
+
+  - title: "Inherited Obligations: How Receiving an Inheritance Shapes Bequest Intentions"
+    authors: "Thelonious Goerz and Adriana M. Reyes"
+    status: "In progress"
+    tags:
+      - "Wealth transfers"
+      - "Family demography"
+    abstract:
+    links:
+
+  - title: "Japanese Classification After Internment: Evidence from Linked 1940-1950 Census Records"
+    authors: "Thelonious Goerz and Jiwon Lee (equal authorship)"
+    status: "In progress"
+    tags:
+      - "Race & ethnicity"
+      - "Record linkage"
+      - "Historical demography"
+    abstract:
+    links:

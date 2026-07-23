@@ -1,6 +1,9 @@
 ---
+layout: page
 title: "Resources"
 permalink: /resources/
+excerpt: "A running list of useful resources on programming, statistics, and computational social science."
+deck: "A running list of books, courses, and websites I have found useful in learning quantitative methods."
 ---
 
 This is an ongoing list of resources, books, and websites on programming, statistics, and computational social science that I have found useful while studying quantitative methods through formally and independently.

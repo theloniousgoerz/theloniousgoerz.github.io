@@ -1,12 +1,16 @@
-# main links links
+# Main site navigation. Order here is the order shown in the header.
 main:
-    
+  - title: "Home"
+    url: /
+
+  - title: "Research"
+    url: /research/
+
   - title: "CV"
-    url: /cv/    
-        
-  - title: "Blog"
-    url: /year-archive/
-    
+    url: /cv/
+
+  - title: "Teaching & Talks"
+    url: /teaching/
+
   - title: "Resources"
     url: /resources/
-
