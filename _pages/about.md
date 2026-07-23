@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 
-kicker: "Demography - Public Policy · Data Science"
+kicker: "Demography · Public Policy · Data Science"
 headline: "Using data science and computational tools to study race, political demography, and mortality."
 
 chips:
