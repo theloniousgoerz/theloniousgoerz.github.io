@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <p class="ctas" style="margin-bottom:34px;">
-  <a class="btn primary" href="{{ '/files/Goerz_CV_26.pdf' | relative_url }}">Download CV (PDF)</a>
+  <a class="btn primary" href="{{ '/files/main.pdf' | relative_url }}">Download CV (PDF)</a>
 </p>
 
 ## Education
