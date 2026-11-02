@@ -42,8 +42,12 @@
 \setlength{\marginparsep}{-65pt}
 \reversemarginpar   % years appear on the LEFT margin
 \newenvironment{sectionbody}
-  {\begin{list}{}{\setlength{\leftmargin}{50pt}}\item[]}
+  {\begin{list}{}{\setlength{\leftmargin}{50pt}\setlength{\topsep}{2pt}\setlength{\partopsep}{0pt}}\item[]}
   {\end{list}}
+% Indented, italic dash list of venues under a presentation title
+\newenvironment{venues}
+  {\begin{itemize}[label=-, leftmargin=1.5em, nosep]\itshape}
+  {\end{itemize}}
 %----------------------------------------------------------------------------------------
 % SECTION HEADING: small caps label + full-width rule beneath
 %----------------------------------------------------------------------------------------
@@ -97,7 +101,7 @@ Ph.D. Candidate, Sociology, Cornell University
 Affiliate: \\
 \hspace{1em}Brooks School of Public Policy\\
 \hspace{1em}Cornell Population Center\\
-\hspace{1em}Center for the Study of Inequality\\
+\hspace{1em}Center for the Study of Inequality
 \end{sectionbody}
 %----------------------------------------------------------------------------------------
 % EDUCATION
@@ -107,11 +111,11 @@ Affiliate: \\
 
 \years{2025} M.A., Sociology (Minor: Demography), Cornell University \\
 \footnotesize Committee: Matthew Hall (Chair), Peter Rich (UW-Madison), Douglas Miller (Economics and Public Policy), Kendra Bischoff \\
-\footnotesize Exams: Social Stratification, Demography \\
+\footnotesize Exams: Social Stratification, Demography
 \end{sectionbody}
 \begin{sectionbody}
 \years{2021} B.A., Sociology (Minor: Data Science), University of Washington\\
-\emph{Cum Laude}, \textit{Phi Beta Kappa} \\
+\emph{Cum Laude}, \textit{Phi Beta Kappa}
 \end{sectionbody}
 
 %----------------------------------------------------------------------------------------
@@ -119,71 +123,74 @@ Affiliate: \\
 %----------------------------------------------------------------------------------------
 \sectionheading{Research Areas}
 \begin{sectionbody}
-\faicon{book} Demography, Social Stratification, Race/Ethnicity, Historical Demography, Urban Sociology, Health\\
-\faicon{bar-chart} Causal Inference, Computational Methods, Spatial Data Analysis \\
+\faicon{book} Demography, Social Stratification, Race/Ethnicity, Historical and Political Demography, Urban Sociology, Mortality\\
+\faicon{bar-chart} Causal Inference, Computational Methods, Spatial Data Analysis
 \end{sectionbody}
-
 %----------------------------------------------------------------------------------------
 % PUBLICATIONS
 %----------------------------------------------------------------------------------------
 \sectionheading{Under Review}
 \begin{sectionbody}
-- Thelonious Goerz. Segregation, Politics, and The Longevity of Black and White Americans [\href{https://osf.io/preprints/socarxiv/gys4t_v3}{working paper}] [\href{https://github.com/theloniousgoerz/bw_segregation_longevity}{replication package}]  \\
-\vspace{0.3em}
-- Adriana M. Reyes and Thelonious Goerz. Reinforcing Inequality: Within Family Division of Transfers and Bequests [\href{https://osf.io/preprints/socarxiv/erthf_v1}{working paper}] \\
-\vspace{0.3em}
+\textbf{Thelonious Goerz}. ``Segregation, Political Economy, and The Longevity of Black and White Americans.'' [\href{https://osf.io/preprints/socarxiv/gys4t_v3}{working paper}] [\href{https://github.com/theloniousgoerz/bw_segregation_longevity}{replication package}]
+
+\textbf{Thelonious Goerz} and Adriana M Reyes. ``Inheritance Receipt and The Transmission of Bequest Motives.'' [\href{https://osf.io/preprints/socarxiv/sptke_v1}{working paper}]
+
+Adriana M. Reyes and \textbf{Thelonious Goerz}. ``Reinforcing Inequality: Within Family Division of Transfers and Bequests.'' [\href{https://osf.io/preprints/socarxiv/erthf_v1}{working paper}]
+
 \end{sectionbody}
 
 \sectionheading{Works in Progress}
 \begin{sectionbody}
 
-- Thelonious Goerz and Matt Hall. Declining Significance or Changing Bases? Income and Racial Segregation (1970-2020) \\
-\vspace{0.3em}
-- Thelonious Goerz and Adriana M Reyes. Inheritance Receipt and The Transmission of Bequest Motives \\
-\vspace{0.3em}
-- Thelonious Goerz and Jiwon Lee (equal Authorship). Japanese Classification After Internment: Evidence from Linked 1940–1950 Census Records \\
+Chris Hess, Youngmin Yi, \textbf{Thelonious Goerz}, and Matt Hall. ``Experienced Diversity and Social Capital.'' In preparation for an \textit{ANNALS} special issue on ``Neighborhood Networks and the Geographic Patterning of Urban Inequality.''
+
+\textbf{Thelonious Goerz} and Matt Hall. ``Declining Significance or Changing Bases? Income and Racial Segregation (1970-2020).''
+
+\textbf{Thelonious Goerz} and Jiwon Lee (equal Authorship). ``Japanese Classification After Internment: Evidence from Linked 1940–1950 Census Records.''
+
+\textbf{Thelonious Goerz}, Barum Park, and Kim Weeden. ``Multidimensional Inequality and Consolidation (1983-2025).''
 \end{sectionbody}
 
 %--------------------------------------------------------
 
-\sectionheading{Presen
-tations}
+\sectionheading{Presentations}
 \begin{sectionbody}
-- Goerz, T. and Reyes, A. Inheritance Receipt and the Transmission of Bequest Motives \\
-\hspace*{10mm}RC28 Summer Meeting, 2026 \\
-- Goerz, T. and Hall, M. Declining Significance or Changing Bases? Income and Racial Segregation (1970-2020) \\
-\hspace*{10mm}Cornell Inequality Discussion Group, 2026 \\
-\hspace*{10mm}PAA Oral Session, 2026  \\
-\vspace{0.3em}
-- Hess, C., Yi, Y., Goerz, T., and Hall, M. Experienced Diversity and Social Capital \\
-\hspace*{10mm}PAA Flash Session, 2026 \\
-\vspace{0.3em}
-- Reyes, A. and Goerz, T. Inequalities in Parental Support in Life and Death \\
- \hspace*{10mm}PAA Oral Session, 2026\\
-\hspace*{10mm}Cornell Gender, Family, and Fertility Working Group, 2025\\
-\vspace{0.3em}
-- Goerz, T. Racial Segregation and Black-White Longevity Disparities \\
-\hspace*{10mm}University of Washington, CSDE, Computational Demography Working Group, 2024 \\
-\hspace*{10mm}Cornell Inequality Discussion Group, 2024\\
-\hspace*{10mm}PAA Poster, 2025 (\emph{Poster award winner)}\\
-\vspace{0.3em}
-- Goerz, T. Skin Tone Stratification and The Hispanic Health Paradox \\
-\hspace*{10mm}Cornell Migration Lab Working Group\\
-\hspace*{10mm}PAA Poster, 2025\\
-\vspace{0.3em}
-- Goerz, T. Local Age-Composition and Stress: Residential and Activity Space Exposures to Age-peers among Older Adults in Chicago \\
-Mobile Apps and Sensors in Surveys, 2024 \\
-\hspace*{10mm}PAA, 2024  \\
-\hspace*{10mm}ASA, 2024 \\
+\textbf{Segregated by Race, Sorted by Party: How Racial Geography Produces Political Segregation} 
+\begin{venues}
+  \item Cornell Inequality Discussion Group, 2026.
+  \item PAA Oral Session, 2027 (scheduled).
+\end{venues}
+\textbf{Inheritance Receipt and the Transmission of Bequest Motives} (with Adriana M. Reyes)
+\begin{venues}
+  \item RC28 Summer Meeting, 2026.
+\end{venues}
 
+\textbf{Declining Significance or Changing Bases? Income and Racial Segregation (1970-2020)} (with Matt Hall)
+\begin{venues}
+  \item Cornell Inequality Discussion Group, 2026.
+  \item PAA Oral Session, 2026.
+\end{venues}
+
+\textbf{Racial Segregation and Black-White Longevity Disparities}
+\begin{venues}
+  \item University of Washington, CSDE, Computational Demography Working Group, 2024.
+  \item Cornell Inequality Discussion Group, 2024.
+  \item PAA Poster, 2025 (Poster award winner).
+\end{venues}
+
+\textbf{Skin Tone Stratification and The Hispanic Health Paradox}
+\begin{venues}
+  \item Cornell Migration Lab Working Group.
+  \item PAA Poster, 2025.
+\end{venues}
 \end{sectionbody}
 
 \sectionheading{Research Experience}
 \begin{sectionbody}
-\years{2024-}{\textbf{Cornell University}, Ithaca, NY} \\ 
+  \years{2026-}{\textbf{Cornell University}, Ithaca, NY} \\ 
+Graduate Research Assistant to Dr. Matt Hall \\
+\years{2024-2026}{\textbf{Cornell University}, Ithaca, NY} \\ 
 Graduate Research Assistant to Dr. Adriana Reyes \\
-\years{2023}{\textbf{Cornell University}, Ithaca, NY} \\ 
-Graduate Research Assistant to Dr. Erin York Cornwell \\  
 \years{2021-23}{\textbf{Johns Hopkins University}, Baltimore, MD} \\ Predoctoral Research Fellow \\
 \years{2020-21}{\textbf{Department of Sociology, University of Washington}, Seattle, WA} \\ Research Assistant \\ 
 \years{2020-20}{\textbf{Department of Public Health, University of Washington}, Seattle, WA} \\ Research Assistant 
@@ -193,6 +200,7 @@ Graduate Research Assistant to Dr. Erin York Cornwell \\
 
 \begin{sectionbody}
 \textbf{Cornell University}, Ithaca, NY \\
+\years{2026} Instructor, SOC 2208 Social Inequality [summer term]  \\
 \years{2024} Teaching Assistant, SOC 1101 Introduction to Sociology [summer term] 
 
 \end{sectionbody}
@@ -201,6 +209,7 @@ Graduate Research Assistant to Dr. Erin York Cornwell \\
 %----------------------------------------------------------------------------------------
 \sectionheading{Honors, Awards, and Funding}
 \begin{sectionbody}
+\years{2026-} Special Sworn Status, U.S. Census Bureau \\
 \years{2025} Research Support Grant, Cornell Population Center,
 Cornell University \\
 \years{2023-25} PAA Travel Grant (x3), Cornell Population Center,Cornell University \\
@@ -210,21 +219,20 @@ Cornell University \\
 \years{2021} American Sociological Association Honors Program \\
 \years{2021} Mary Gates Undergraduate Research Award, University of Washington (\$5,000)	\\	
 \years{2020} Population Health Research Award, UW Population Health Initiative 	\\
-\years{2018-21} University of Washington Dean’s List \\					     
+\years{2018-21} University of Washington Dean’s List
 \end{sectionbody}
 
 \sectionheading{Skills}
 \begin{sectionbody}
 Software: R, Stata, SQL, \LaTeX, ArcGIS, MAXQDA, Git, GitHub, Bash \\
-Languages: English [native]; Spanish [intermediate] \\
+Languages: English [native]; Spanish [intermediate]
 \end{sectionbody}
 
 \sectionheading{Service}
 \begin{sectionbody}
 \years{2025-2026} Co-President, Sociology Graduate Student Association \\
 \years{2024-2025} Research Symposium Co-Chair, Sociology Graduate Student Association \\
-\years{2024} Mentor, Consider Cornell Ph.D. Recruitment Experience \\
-\smallskip 
+\years{2024} Mentor, Consider Cornell Ph.D. Recruitment Experience
 \end{sectionbody}
 
 \sectionheading{Professional Affiliations}
@@ -234,7 +242,7 @@ American Sociological Association \\
 Sections: \\
 \hspace*{10mm} Inequality, Poverty and Mobility \\
 \hspace*{10mm} Sociology of Population \\
-\hspace*{10mm} Community and Urban Sociology \\
+\hspace*{10mm} Community and Urban Sociology
 \end{sectionbody}
 %\sectionheading{Research Mentorship}
 
